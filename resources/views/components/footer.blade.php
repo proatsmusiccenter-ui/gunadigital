@@ -31,7 +31,7 @@
                 <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider">Navigasi</h4>
                 <ul class="space-y-2.5 text-xs">
                     <li>
-                        <a href="{{ route('home') }}" class="hover:text-blue-600 transition-colors inline-block hover:translate-x-1 duration-200">
+                        <a href="{{ route('home') }}" @click.prevent="navigateHome()" class="hover:text-blue-600 transition-colors inline-block hover:translate-x-1 duration-200">
                             Beranda
                         </a>
                     </li>
@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('home') }}#faq" class="hover:text-blue-600 transition-colors inline-block hover:translate-x-1 duration-200">
+                        <a href="{{ route('faq') }}" @click.prevent="navigateSection('faq')" class="hover:text-blue-600 transition-colors inline-block hover:translate-x-1 duration-200">
                             FAQ
                         </a>
                     </li>

@@ -67,13 +67,13 @@
                 </div>
 
                 <div class="pt-8 mt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3">
-                    <a href="#harga" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm shadow-lg shadow-blue-500/25 hover:shadow-blue-500/35 transition-all">
+                    <a href="{{ route('harga') }}" @click.prevent="navigateSection('harga')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm shadow-lg shadow-blue-500/25 hover:shadow-blue-500/35 transition-all">
                         <span>Lihat Paket Website</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
                         </svg>
                     </a>
-                    <a href="#portofolio" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl border border-slate-200/90 hover:bg-slate-50 text-slate-700 font-bold text-sm transition-all">
+                    <a href="{{ route('portofolio') }}" @click.prevent="navigateSection('portofolio')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl border border-slate-200/90 hover:bg-slate-50 text-slate-700 font-bold text-sm transition-all">
                         <span>Lihat Hasil Portofolio</span>
                     </a>
                 </div>
@@ -126,7 +126,7 @@
                 </div>
 
                 <div class="pt-8 mt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3">
-                    <a href="#harga" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-700 hover:to-rose-700 text-white font-bold text-sm shadow-lg shadow-pink-500/25 hover:shadow-pink-500/35 transition-all">
+                    <a href="{{ route('harga') }}" @click.prevent="navigateSection('harga')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-700 hover:to-rose-700 text-white font-bold text-sm shadow-lg shadow-pink-500/25 hover:shadow-pink-500/35 transition-all">
                         <span>Lihat Paket Undangan</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>

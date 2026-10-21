@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between h-20">
 
             <!-- Brand Logo -->
-            <a href="{{ route('home') }}" class="flex items-center group py-1" title="GunaDigital - Web & Digital Invitation">
+            <a href="{{ route('home') }}" @click.prevent="navigateHome()" class="flex items-center group py-1" title="GunaDigital - Web & Digital Invitation">
                 <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}"
                      alt="GunaDigital"
                      class="h-8 sm:h-9 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
@@ -11,10 +11,10 @@
 
             <!-- Nav Links -->
             <nav class="hidden md:flex items-center gap-2 text-sm font-semibold text-slate-600 bg-slate-100/70 p-1.5 rounded-full border border-slate-200/70">
-                <a href="{{ route('home') }}#layanan" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Layanan</a>
-                <a href="{{ route('home') }}#keunggulan" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Keunggulan</a>
-                <a href="{{ route('home') }}#portofolio" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Portofolio</a>
-                <a href="{{ route('home') }}#harga" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Paket Harga</a>
+                <a href="{{ route('layanan') }}" @click.prevent="navigateSection('layanan')" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Layanan</a>
+                <a href="{{ route('keunggulan') }}" @click.prevent="navigateSection('keunggulan')" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Keunggulan</a>
+                <a href="{{ route('portofolio') }}" @click.prevent="navigateSection('portofolio')" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Portofolio</a>
+                <a href="{{ route('harga') }}" @click.prevent="navigateSection('harga')" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Paket Harga</a>
             </nav>
 
             <!-- Actions -->
@@ -60,10 +60,10 @@
          x-transition:leave-start="opacity-100 translate-y-0"
          x-transition:leave-end="opacity-0 -translate-y-4"
          class="md:hidden border-b border-blue-100 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-6 space-y-3">
-        <a @click="mobileMenuOpen = false" href="{{ route('home') }}#layanan" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Layanan</a>
-        <a @click="mobileMenuOpen = false" href="{{ route('home') }}#keunggulan" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Keunggulan</a>
-        <a @click="mobileMenuOpen = false" href="{{ route('home') }}#portofolio" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Portofolio</a>
-        <a @click="mobileMenuOpen = false" href="{{ route('home') }}#harga" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Paket Harga</a>
+        <a @click.prevent="navigateSection('layanan'); mobileMenuOpen = false" href="{{ route('layanan') }}" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Layanan</a>
+        <a @click.prevent="navigateSection('keunggulan'); mobileMenuOpen = false" href="{{ route('keunggulan') }}" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Keunggulan</a>
+        <a @click.prevent="navigateSection('portofolio'); mobileMenuOpen = false" href="{{ route('portofolio') }}" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Portofolio</a>
+        <a @click.prevent="navigateSection('harga'); mobileMenuOpen = false" href="{{ route('harga') }}" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600">Paket Harga</a>
         <div class="pt-2">
             <button @click="contactModalOpen = true; mobileMenuOpen = false"
                     type="button"

@@ -29,7 +29,8 @@
 
                 <!-- Action Buttons -->
                 <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-1">
-                    <a href="#harga"
+                    <a href="{{ route('harga') }}"
+                       @click.prevent="navigateSection('harga')"
                        class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl font-black text-white bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-800 shadow-xl shadow-blue-600/30 ring-4 ring-blue-500/10 hover:shadow-blue-600/50 hover:scale-[1.02] transition-all duration-300 group">
                         <span>Pilih Paket Website</span>
                         <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -37,7 +38,8 @@
                         </svg>
                     </a>
 
-                    <a href="#layanan"
+                    <a href="{{ route('layanan') }}"
+                       @click.prevent="navigateSection('layanan')"
                        class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-2xl font-bold text-slate-800 border border-slate-200/90 bg-white/90 hover:bg-slate-50 shadow-sm hover:shadow-md hover:border-blue-300 hover:scale-[1.02] transition-all duration-300 backdrop-blur-md">
                         <svg class="w-5 h-5 text-pink-500" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>

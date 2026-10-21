@@ -188,15 +188,15 @@
             <div class="bg-white rounded-3xl p-6 sm:p-7 border border-blue-100 shadow-sm space-y-4">
                 <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider">Aksi Cepat Admin</h3>
                 <div class="space-y-2 text-xs">
-                    <a href="{{ route('home') }}#harga" target="_blank" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-blue-300 text-slate-700 hover:text-blue-600 transition-all">
+                    <a href="{{ route('harga') }}" target="_blank" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-blue-300 text-slate-700 hover:text-blue-600 transition-all">
                         <span>Update Paket Harga di Web</span>
                         <span class="text-slate-400">&rarr;</span>
                     </a>
-                    <a href="{{ route('home') }}#portofolio" target="_blank" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-pink-300 text-slate-700 hover:text-pink-600 transition-all">
+                    <a href="{{ route('portofolio') }}" target="_blank" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-pink-300 text-slate-700 hover:text-pink-600 transition-all">
                         <span>Upload Portofolio Baru</span>
                         <span class="text-slate-400">&rarr;</span>
                     </a>
-                    <a href="{{ route('home') }}#faq" target="_blank" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-cyan-300 text-slate-700 hover:text-cyan-600 transition-all">
+                    <a href="{{ route('faq') }}" target="_blank" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-cyan-300 text-slate-700 hover:text-cyan-600 transition-all">
                         <span>Edit Pertanyaan FAQ</span>
                         <span class="text-slate-400">&rarr;</span>
                     </a>

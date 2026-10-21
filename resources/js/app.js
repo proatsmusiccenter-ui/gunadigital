@@ -187,6 +187,26 @@ document.addEventListener('alpine:init', () => {
             this.activeFaq = this.activeFaq === index ? null : index;
         },
 
+        // Clean URL Section Navigation (No # Hash)
+        navigateSection(sectionId) {
+            const target = document.getElementById(sectionId);
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+                window.history.pushState(null, '', '/' + sectionId);
+            } else {
+                window.location.href = '/' + sectionId;
+            }
+        },
+
+        navigateHome() {
+            if (window.location.pathname === '/' || ['/layanan', '/keunggulan', '/portofolio', '/harga', '/faq'].includes(window.location.pathname)) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.history.pushState(null, '', '/');
+            } else {
+                window.location.href = '/';
+            }
+        },
+
         init() {
             if (this.darkMode) {
                 document.documentElement.classList.add('dark');
@@ -194,6 +214,29 @@ document.addEventListener('alpine:init', () => {
                 document.documentElement.classList.remove('dark');
             }
             this.invitationMockup.init();
+
+            // Auto scroll if navigated directly to clean path like /keunggulan, /layanan, /portofolio, /harga, /faq
+            const path = window.location.pathname.replace(/^\/+/g, '').replace(/\/+$/g, '');
+            if (['layanan', 'keunggulan', 'portofolio', 'harga', 'faq'].includes(path)) {
+                this.$nextTick(() => {
+                    setTimeout(() => {
+                        const target = document.getElementById(path);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth' });
+                        }
+                    }, 150);
+                });
+            }
+
+            // Handle browser Back/Forward navigation smoothly
+            window.addEventListener('popstate', () => {
+                const currentPath = window.location.pathname.replace(/^\/+/g, '').replace(/\/+$/g, '');
+                if (['layanan', 'keunggulan', 'portofolio', 'harga', 'faq'].includes(currentPath)) {
+                    document.getElementById(currentPath)?.scrollIntoView({ behavior: 'smooth' });
+                } else if (currentPath === '') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            });
 
             // Refresh icons after Alpine initializes
             this.$nextTick(() => {
