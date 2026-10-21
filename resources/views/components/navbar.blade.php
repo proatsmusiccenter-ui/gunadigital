@@ -6,7 +6,7 @@
             <a href="{{ route('home') }}" class="flex items-center group py-1" title="GunaDigital - Web & Digital Invitation">
                 <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}"
                      alt="GunaDigital"
-                     class="h-11 sm:h-12 md:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                     class="h-8 sm:h-9 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
             </a>
 
             <!-- Nav Links -->

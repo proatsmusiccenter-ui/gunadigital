@@ -6,7 +6,7 @@
                 <a href="{{ route('home') }}" class="inline-block group py-1" title="GunaDigital - Web & Digital Invitation">
                     <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}"
                          alt="GunaDigital"
-                         class="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                         class="h-8 sm:h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
                 </a>
 
                 <p class="text-xs text-slate-500 leading-relaxed max-w-xs font-normal">
