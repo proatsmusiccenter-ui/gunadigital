@@ -3,22 +3,10 @@
         <div class="flex items-center justify-between h-20">
 
             <!-- Brand Logo -->
-            <a href="{{ route('home') }}" class="flex items-center gap-3 group py-1">
-                <div class="relative w-11 h-11 rounded-2xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-sky-500 p-0.5 shadow-md shadow-blue-500/20 group-hover:shadow-blue-500/40 group-hover:scale-105 transition-all duration-300">
-                    <div class="w-full h-full bg-white rounded-[14px] flex items-center justify-center">
-                        <svg class="w-6 h-6 text-blue-600 group-hover:rotate-6 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="flex flex-col">
-                    <div class="flex items-baseline">
-                        <span class="text-xl font-black tracking-tight text-slate-900 font-sans">Guna</span>
-                        <span class="text-xl font-black tracking-tight bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent font-sans">Digital</span>
-                        <span class="w-1.5 h-1.5 rounded-full bg-sky-500 ml-0.5 animate-pulse"></span>
-                    </div>
-                    <span class="text-[10px] font-bold uppercase tracking-wider text-slate-600">Web & Digital Invitation</span>
-                </div>
+            <a href="{{ route('home') }}" class="flex items-center group py-1" title="GunaDigital - Web & Digital Invitation">
+                <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}"
+                     alt="GunaDigital"
+                     class="h-11 sm:h-12 md:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
             </a>
 
             <!-- Nav Links -->

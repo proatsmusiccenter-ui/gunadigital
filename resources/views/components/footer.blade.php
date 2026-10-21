@@ -3,22 +3,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-100">
 
             <div class="space-y-5">
-                <a href="{{ route('home') }}" class="flex items-center gap-3 group py-1">
-                    <div class="relative w-10 h-10 rounded-2xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-sky-500 p-0.5 shadow-md shadow-blue-500/20 group-hover:scale-105 transition-all">
-                        <div class="w-full h-full bg-white rounded-[14px] flex items-center justify-center">
-                            <svg class="w-5 h-5 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="flex flex-col">
-                        <div class="flex items-baseline">
-                            <span class="text-lg font-black tracking-tight text-slate-900 font-sans">Guna</span>
-                            <span class="text-lg font-black tracking-tight bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent font-sans">Digital</span>
-                            <span class="w-1.5 h-1.5 rounded-full bg-sky-500 ml-0.5 animate-pulse"></span>
-                        </div>
-                        <span class="text-[9px] font-bold uppercase tracking-wider text-slate-400">Web & Digital Invitation</span>
-                    </div>
+                <a href="{{ route('home') }}" class="inline-block group py-1" title="GunaDigital - Web & Digital Invitation">
+                    <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}"
+                         alt="GunaDigital"
+                         class="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
                 </a>
 
                 <p class="text-xs text-slate-500 leading-relaxed max-w-xs font-normal">
