@@ -45,6 +45,12 @@
                             FAQ
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ route('flyer') }}" target="_blank" class="text-blue-600 hover:text-blue-700 font-semibold transition-colors inline-flex items-center gap-1 hover:translate-x-1 duration-200">
+                            <span>Flyer Promosi</span>
+                            <span class="text-[10px] bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded-full font-bold">PDF/JPG</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
 

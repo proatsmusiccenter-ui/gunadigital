@@ -19,6 +19,7 @@ Route::get('/keunggulan', [LandingController::class, 'index'])->name('keunggulan
 Route::get('/portofolio', [LandingController::class, 'index'])->name('portofolio');
 Route::get('/harga', [LandingController::class, 'index'])->name('harga');
 Route::get('/faq', [LandingController::class, 'index'])->name('faq');
+Route::get('/flyer', [LandingController::class, 'flyer'])->name('flyer');
 Route::get('/demo/undangan-digital', [LandingController::class, 'invitationDemo'])->name('invitation.demo');
 
 Route::get('/tentang-kami', [PageController::class, 'about'])->name('about');

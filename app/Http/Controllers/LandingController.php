@@ -292,4 +292,9 @@ class LandingController extends Controller
     {
         return view('invitations.demo');
     }
+
+    public function flyer(): View
+    {
+        return view('pages.flyer');
+    }
 }
