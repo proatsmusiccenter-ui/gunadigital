@@ -85,18 +85,7 @@
                 <!-- Ambient Glow Behind Preview -->
                 <div class="absolute -inset-4 bg-gradient-to-tr from-blue-500/20 via-indigo-500/20 to-sky-400/20 rounded-3xl blur-2xl opacity-75"></div>
 
-                <!-- Floating Micro-Proof Badge 1 (Top Right) -->
-                <div class="absolute -top-4 -right-2 z-30 hidden sm:flex items-center gap-2.5 bg-white/95 backdrop-blur-md px-4 py-2 rounded-2xl shadow-xl border border-slate-200/80 animate-float">
-                    <div class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-sm">
-                        ⚡
-                    </div>
-                    <div class="text-left">
-                        <span class="block text-xs font-black text-slate-900 leading-none">Speed 99/100</span>
-                        <span class="block text-[10px] text-slate-600 font-semibold mt-0.5">Google PageSpeed</span>
-                    </div>
-                </div>
-
-                <!-- Floating Micro-Proof Badge 2 (Bottom Left) -->
+                <!-- Floating Micro-Proof Badge (Bottom Left) -->
                 <div class="absolute -bottom-4 -left-2 z-30 hidden sm:flex items-center gap-2.5 bg-white/95 backdrop-blur-md px-4 py-2 rounded-2xl shadow-xl border border-slate-200/80 animate-float-reverse">
                     <div class="w-8 h-8 rounded-xl bg-pink-100 text-pink-600 flex items-center justify-center font-bold text-sm">
                         💌
