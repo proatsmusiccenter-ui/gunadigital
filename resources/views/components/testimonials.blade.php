@@ -20,30 +20,37 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
             @foreach($testimonials as $t)
-            <div class="bg-white rounded-3xl p-8 flex flex-col justify-between border border-slate-200 shadow-sm hover:shadow-xl hover:border-blue-300 group hover:-translate-y-1.5 transition-all">
-                <div class="space-y-4">
+            <div class="bg-white rounded-3xl p-8 flex flex-col justify-between border border-slate-200/90 shadow-sm hover:shadow-2xl hover:border-blue-400 group hover:-translate-y-2 transition-all duration-300 relative overflow-hidden">
+                <span class="absolute top-4 right-6 text-6xl font-serif text-slate-100 group-hover:text-blue-100/70 select-none transition-colors">“</span>
+                <div class="space-y-4 relative z-10">
 
-                    <div class="flex items-center gap-1 text-amber-400">
-                        @for($i = 0; $i < $t['rating']; $i++)
-                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        @endfor
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-1 text-amber-400">
+                            @for($i = 0; $i < $t['rating']; $i++)
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            @endfor
+                        </div>
+                        <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                            <span>Terverifikasi</span>
+                        </span>
                     </div>
 
-                    <p class="text-slate-700 text-sm leading-relaxed italic">
+                    <p class="text-slate-700 text-sm sm:text-base leading-relaxed italic font-normal">
                         "{{ $t['content'] }}"
                     </p>
                 </div>
 
-                <div class="pt-6 mt-6 border-t border-slate-100 flex items-center gap-4">
+                <div class="pt-6 mt-6 border-t border-slate-100 flex items-center gap-4 relative z-10">
                     <img src="{{ $t['avatar'] }}"
                          alt="{{ $t['name'] }}"
-                         class="w-12 h-12 rounded-full object-cover border-2 border-blue-200">
+                         class="w-12 h-12 rounded-full object-cover ring-2 ring-blue-500/30 shadow-md">
                     <div>
                         <h4 class="font-bold text-slate-900 text-sm">{{ $t['name'] }}</h4>
                         <span class="block text-xs text-slate-500">{{ $t['role'] }}</span>
-                        <span class="inline-block mt-1 text-[10px] font-bold text-blue-700 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-md">
+                        <span class="inline-block mt-1 text-[10px] font-bold text-blue-700 bg-blue-50 border border-blue-100 px-2.5 py-0.5 rounded-md">
                             {{ $t['service'] }}
                         </span>
                     </div>

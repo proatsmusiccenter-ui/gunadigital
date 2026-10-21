@@ -41,9 +41,9 @@
              class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
 
             @foreach($packages['website'] as $pkg)
-            <div class="relative bg-white rounded-3xl p-8 sm:p-9 flex flex-col justify-between border {{ $pkg['popular'] ? 'border-blue-600 ring-2 ring-blue-500/20 shadow-xl shadow-blue-500/10' : 'border-slate-200 shadow-sm hover:border-blue-300' }}">
+            <div class="relative bg-white rounded-3xl p-8 sm:p-9 flex flex-col justify-between transition-all duration-300 {{ $pkg['popular'] ? 'border-2 border-blue-600 ring-4 ring-blue-500/10 shadow-2xl shadow-blue-500/15 lg:-translate-y-2 z-10' : 'border border-slate-200/90 shadow-sm hover:shadow-xl hover:border-blue-300' }}">
                 @if($pkg['popular'])
-                <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs font-black uppercase tracking-wider shadow-md">
+                <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-500 text-white text-xs font-black uppercase tracking-wider shadow-md shimmer-badge">
                     {{ $pkg['badge'] ?? 'Paling Diminati' }}
                 </div>
                 @endif
@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="pt-4 border-t border-slate-100">
-                        <span class="text-xs text-slate-500 uppercase tracking-wider block">Harga Mulai:</span>
+                        <span class="text-xs text-slate-500 uppercase tracking-wider block font-semibold">Harga Mulai:</span>
                         <div class="flex items-baseline gap-2 mt-1">
                             <span class="text-3xl sm:text-4xl font-black tracking-tight text-slate-900">{{ $pkg['price'] }}</span>
                             <span class="text-xs text-slate-500 font-medium">/ {{ $pkg['period'] }}</span>
@@ -78,10 +78,10 @@
                     <a href="https://wa.me/6281234567890?text=Halo%20GunaDigital,%20saya%20tertarik%20dengan%20{{ urlencode($pkg['name']) }}%20untuk%20website%20saya"
                        target="_blank"
                        rel="noopener"
-                       class="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm text-center transition-all duration-200 {{ $pkg['popular'] ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/25' : 'bg-blue-50 hover:bg-blue-100 text-blue-700' }}">
+                       class="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-2xl font-bold text-sm text-center transition-all duration-300 {{ $pkg['popular'] ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-800 text-white shadow-xl shadow-blue-500/30 hover:scale-[1.02]' : 'bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200/80 hover:border-blue-200' }}">
                         <span>{{ $pkg['cta'] }}</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
                 </div>
@@ -97,9 +97,9 @@
              class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
 
             @foreach($packages['undangan'] as $pkg)
-            <div class="relative bg-white rounded-3xl p-8 sm:p-9 flex flex-col justify-between border {{ $pkg['popular'] ? 'border-pink-500 ring-2 ring-pink-500/20 shadow-xl shadow-pink-500/10' : 'border-slate-200 shadow-sm hover:border-pink-300' }}">
+            <div class="relative bg-white rounded-3xl p-8 sm:p-9 flex flex-col justify-between transition-all duration-300 {{ $pkg['popular'] ? 'border-2 border-pink-500 ring-4 ring-pink-500/10 shadow-2xl shadow-pink-500/15 lg:-translate-y-2 z-10' : 'border border-slate-200/90 shadow-sm hover:shadow-xl hover:border-pink-300' }}">
                 @if($pkg['popular'])
-                <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-pink-600 to-rose-600 text-white text-xs font-black uppercase tracking-wider shadow-md">
+                <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-pink-600 via-rose-600 to-amber-500 text-white text-xs font-black uppercase tracking-wider shadow-md shimmer-badge">
                     {{ $pkg['badge'] ?? 'Paling Diminati' }}
                 </div>
                 @endif
@@ -111,7 +111,7 @@
                     </div>
 
                     <div class="pt-4 border-t border-slate-100">
-                        <span class="text-xs text-slate-500 uppercase tracking-wider block">Harga Mulai:</span>
+                        <span class="text-xs text-slate-500 uppercase tracking-wider block font-semibold">Harga Mulai:</span>
                         <div class="flex items-baseline gap-2 mt-1">
                             <span class="text-3xl sm:text-4xl font-black tracking-tight text-slate-900">{{ $pkg['price'] }}</span>
                             <span class="text-xs text-slate-500 font-medium">/ {{ $pkg['period'] }}</span>
@@ -134,10 +134,10 @@
                     <a href="https://wa.me/6281234567890?text=Halo%20GunaDigital,%20saya%20tertarik%20pesan%20{{ urlencode($pkg['name']) }}"
                        target="_blank"
                        rel="noopener"
-                       class="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm text-center transition-all duration-200 {{ $pkg['popular'] ? 'bg-pink-600 hover:bg-pink-700 text-white shadow-lg shadow-pink-600/25' : 'bg-pink-50 hover:bg-pink-100 text-pink-700' }}">
+                       class="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-2xl font-bold text-sm text-center transition-all duration-300 {{ $pkg['popular'] ? 'bg-gradient-to-r from-pink-600 via-rose-600 to-pink-700 hover:from-pink-700 hover:to-rose-800 text-white shadow-xl shadow-pink-600/30 hover:scale-[1.02]' : 'bg-slate-100 hover:bg-pink-50 text-slate-700 hover:text-pink-700 border border-slate-200/80 hover:border-pink-200' }}">
                         <span>{{ $pkg['cta'] }}</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
                 </div>

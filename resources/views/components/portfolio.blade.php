@@ -39,7 +39,20 @@
                  x-transition:enter="transition ease-out duration-300"
                  x-transition:enter-start="opacity-0 scale-95"
                  x-transition:enter-end="opacity-100 scale-100"
-                 class="bg-white rounded-3xl overflow-hidden group flex flex-col justify-between border border-slate-200 shadow-sm hover:shadow-xl hover:border-blue-300 hover:-translate-y-1.5 transition-all duration-300">
+                 class="bg-white rounded-3xl overflow-hidden group flex flex-col justify-between border border-slate-200/90 shadow-sm hover:shadow-2xl hover:border-blue-400 hover:-translate-y-2 transition-all duration-300">
+
+                <!-- Browser Chrome Window Top Bar -->
+                <div class="px-4 py-2 bg-slate-900 flex items-center justify-between border-b border-slate-800">
+                    <div class="flex items-center gap-1.5">
+                        <span class="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span>
+                        <span class="w-2.5 h-2.5 rounded-full bg-amber-500 inline-block"></span>
+                        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span>
+                    </div>
+                    <div class="text-[10px] font-mono text-slate-400 truncate max-w-[170px]">
+                        {{ $item['category'] === 'website' ? 'https://gunadigital.my.id' : 'https://undangan.digital' }}
+                    </div>
+                    <span class="w-1.5 h-1.5 rounded-full {{ $item['category'] === 'website' ? 'bg-blue-400' : 'bg-pink-400' }}"></span>
+                </div>
 
                 <div class="relative overflow-hidden aspect-[16/10] bg-slate-100">
                     <img src="{{ $item['image'] }}"
@@ -47,7 +60,7 @@
                          loading="lazy"
                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
 
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/75 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
 
                     <div class="absolute top-4 left-4 flex items-center gap-2">
                         <span class="px-3 py-1 rounded-full text-xs font-bold text-white shadow-md backdrop-blur-md {{ $item['category'] === 'website' ? 'bg-blue-600/90' : 'bg-pink-600/90' }}">

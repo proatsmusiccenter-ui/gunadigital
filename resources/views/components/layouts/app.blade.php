@@ -23,12 +23,16 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body x-data="landingApp" class="bg-gradient-to-b from-blue-50/60 via-white to-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-600 selection:text-white transition-colors duration-300 relative overflow-x-hidden min-h-screen">
+<body x-data="landingApp" class="bg-slate-50/70 text-slate-800 font-sans antialiased selection:bg-blue-600 selection:text-white transition-colors duration-300 relative overflow-x-hidden min-h-screen">
 
+    <!-- Modern Subtle Tech Background Grid & Ambient Glows -->
     <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
-        <div class="ambient-glow-blue w-[650px] h-[650px] -top-40 -left-20 opacity-70"></div>
-        <div class="ambient-glow-sky w-[550px] h-[550px] top-[35%] -right-24 opacity-60"></div>
-        <div class="ambient-glow-blue w-[700px] h-[700px] bottom-0 left-[20%] opacity-50"></div>
+        <!-- Subtle dot matrix pattern -->
+        <div class="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:24px_24px] opacity-60"></div>
+        <!-- Ambient radial lights -->
+        <div class="absolute w-[600px] h-[600px] -top-32 -left-20 bg-blue-400/15 rounded-full blur-[120px]"></div>
+        <div class="absolute w-[550px] h-[550px] top-[30%] -right-24 bg-indigo-400/15 rounded-full blur-[120px]"></div>
+        <div class="absolute w-[650px] h-[650px] bottom-10 left-[15%] bg-sky-300/15 rounded-full blur-[120px]"></div>
     </div>
 
     <div class="relative z-10 flex flex-col min-h-screen">

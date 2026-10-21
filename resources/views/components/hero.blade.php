@@ -6,69 +6,108 @@
 
             <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
 
-                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-blue-200 bg-blue-50/90 shadow-sm">
-                    <span class="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse"></span>
-                    <span class="text-xs font-bold uppercase tracking-widest text-blue-700">
-                        Jasa Pembuatan Web & Undangan Digital #1
+                <!-- Pill Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-blue-200/90 bg-white/90 shadow-sm backdrop-blur-md shimmer-badge">
+                    <span class="flex h-2 w-2 rounded-full bg-blue-600 animate-ping"></span>
+                    <span class="text-xs font-black uppercase tracking-widest bg-gradient-to-r from-blue-700 via-indigo-700 to-sky-600 bg-clip-text text-transparent font-sans">
+                        ✨ Solusi Digital Terpadu #1 di Indonesia
                     </span>
                 </div>
 
-                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.15] text-slate-900">
+                <!-- Main Heading -->
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.12] text-slate-900 font-sans">
                     Tingkatkan Kredibilitas Bisnis & Abadikan
-                    <span class="bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-600 bg-clip-text text-transparent">
+                    <span class="bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-500 bg-clip-text text-transparent block mt-1">
                         Momen Spesial Anda
                     </span>
                 </h1>
 
-                <p class="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
-                    Layanan terpadu pembuatan <strong class="font-semibold text-slate-900">Website Profesional</strong> untuk UMKM & Perusahaan, serta <strong class="font-semibold text-slate-900">Undangan Digital Eksklusif</strong> dengan fitur interaktif (RSVP WhatsApp, Musik Latar, Amplop QRIS, & Countdown).
+                <!-- Subheading Description -->
+                <p class="text-base sm:text-lg lg:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+                    Layanan terpadu pembuatan <strong class="font-bold text-slate-900">Website Profesional</strong> untuk UMKM & Perusahaan, serta <strong class="font-bold text-slate-900">Undangan Digital Eksklusif</strong> dengan fitur interaktif (RSVP WhatsApp, Musik Latar, Amplop QRIS, & Countdown).
                 </p>
 
-                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-1">
                     <a href="#harga"
-                       class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-blue-500 hover:to-indigo-600 shadow-xl shadow-blue-600/25 hover:shadow-blue-600/40 hover:-translate-y-0.5 transition-all duration-300 group">
+                       class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl font-black text-white bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-800 shadow-xl shadow-blue-600/30 ring-4 ring-blue-500/10 hover:shadow-blue-600/50 hover:scale-[1.02] transition-all duration-300 group">
                         <span>Pilih Paket Website</span>
                         <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
 
                     <a href="#layanan"
-                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-bold text-blue-700 border border-blue-200 bg-white hover:bg-blue-50 shadow-sm hover:shadow hover:-translate-y-0.5 transition-all duration-300">
-                        <svg class="w-5 h-5 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-2xl font-bold text-slate-800 border border-slate-200/90 bg-white/90 hover:bg-slate-50 shadow-sm hover:shadow-md hover:border-blue-300 hover:scale-[1.02] transition-all duration-300 backdrop-blur-md">
+                        <svg class="w-5 h-5 text-pink-500" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                         </svg>
                         <span>Eksplor Undangan Digital</span>
                     </a>
                 </div>
 
-                <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-y-2 gap-x-6 text-xs text-slate-600">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        <span>Pengerjaan Cepat 24-48 Jam</span>
+                <!-- Social Proof Rating -->
+                <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 border-t border-slate-200/60">
+                    <div class="flex -space-x-2.5 overflow-hidden">
+                        <img class="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-sm" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Client 1">
+                        <img class="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-sm" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Client 2">
+                        <img class="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-sm" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Client 3">
+                        <img class="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-sm" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Client 4">
                     </div>
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
+                    <div class="text-center sm:text-left text-xs">
+                        <div class="flex items-center justify-center sm:justify-start gap-1 text-amber-500 font-bold">
+                            <span>★★★★★</span>
+                            <span class="text-slate-900 font-extrabold ml-1">4.9 / 5.0</span>
+                        </div>
+                        <span class="text-slate-600 font-medium">Dipercaya 350+ Pemilik Bisnis & Pasangan</span>
+                    </div>
+                </div>
+
+                <!-- Trust Value Strip -->
+                <div class="pt-1 flex flex-wrap items-center justify-center lg:justify-start gap-y-2 gap-x-6 text-xs text-slate-600 font-medium">
+                    <div class="flex items-center gap-1.5">
+                        <span class="w-4 h-4 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-[10px] font-black">✓</span>
+                        <span>Pengerjaan Kilat 24-48 Jam</span>
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                        <span class="w-4 h-4 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-[10px] font-black">✓</span>
                         <span>Garansi Revisi Sepuasnya</span>
                     </div>
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        <span>Bisa Pakai Domain Sendiri (.com / .id)</span>
+                    <div class="flex items-center gap-1.5">
+                        <span class="w-4 h-4 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-[10px] font-black">✓</span>
+                        <span>Domain & Server Cloud Cepat</span>
                     </div>
                 </div>
             </div>
 
             <div class="lg:col-span-5 relative">
 
-                <div class="absolute -inset-4 bg-gradient-to-r from-blue-400/20 via-sky-400/20 to-indigo-400/20 rounded-3xl blur-2xl opacity-70"></div>
+                <!-- Ambient Glow Behind Preview -->
+                <div class="absolute -inset-4 bg-gradient-to-tr from-blue-500/20 via-indigo-500/20 to-sky-400/20 rounded-3xl blur-2xl opacity-75"></div>
 
-                <div class="relative z-10 bg-white rounded-3xl p-4 sm:p-6 shadow-xl border border-blue-100">
+                <!-- Floating Micro-Proof Badge 1 (Top Right) -->
+                <div class="absolute -top-4 -right-2 z-30 hidden sm:flex items-center gap-2.5 bg-white/95 backdrop-blur-md px-4 py-2 rounded-2xl shadow-xl border border-slate-200/80 animate-float">
+                    <div class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-sm">
+                        ⚡
+                    </div>
+                    <div class="text-left">
+                        <span class="block text-xs font-black text-slate-900 leading-none">Speed 99/100</span>
+                        <span class="block text-[10px] text-slate-600 font-semibold mt-0.5">Google PageSpeed</span>
+                    </div>
+                </div>
+
+                <!-- Floating Micro-Proof Badge 2 (Bottom Left) -->
+                <div class="absolute -bottom-4 -left-2 z-30 hidden sm:flex items-center gap-2.5 bg-white/95 backdrop-blur-md px-4 py-2 rounded-2xl shadow-xl border border-slate-200/80 animate-float-reverse">
+                    <div class="w-8 h-8 rounded-xl bg-pink-100 text-pink-600 flex items-center justify-center font-bold text-sm">
+                        💌
+                    </div>
+                    <div class="text-left">
+                        <span class="block text-xs font-black text-slate-900 leading-none">+1 Tamu RSVP Hadir</span>
+                        <span class="block text-[10px] text-emerald-600 font-bold mt-0.5">WhatsApp Notif Realtime</span>
+                    </div>
+                </div>
+
+                <div class="relative z-10 bg-white/90 backdrop-blur-xl rounded-3xl p-4 sm:p-6 shadow-2xl border border-slate-200/80">
 
                     <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-3">
                         <div class="flex items-center gap-2">
