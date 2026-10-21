@@ -15,8 +15,9 @@
     <meta property="og:description" content="Bikin website bisnis & undangan digital pernikahan impianmu dengan desain mewah, pengerjaan cepat, dan harga bersahabat.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80">
 
-    <link rel="icon" type="image/png" href="{{ asset('images/logologo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/logologo.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}?v={{ filemtime(public_path('images/favicon.png')) }}">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v={{ filemtime(public_path('favicon.ico')) }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/favicon.png') }}?v={{ filemtime(public_path('images/favicon.png')) }}">
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=plus-jakarta-sans:300,400,500,600,700,800|playfair-display:400,600,700,800|cinzel:400,600,700|cormorant-garamond:400,600,700,700i&display=swap" rel="stylesheet" />

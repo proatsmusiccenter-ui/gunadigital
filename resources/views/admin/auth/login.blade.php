@@ -7,8 +7,9 @@
 
     <title>Login Admin - CMS GunaDigital</title>
     <meta name="robots" content="noindex, nofollow">
-    <link rel="icon" type="image/png" href="{{ asset('images/logologo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/logologo.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}?v={{ filemtime(public_path('images/favicon.png')) }}">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v={{ filemtime(public_path('favicon.ico')) }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/favicon.png') }}?v={{ filemtime(public_path('images/favicon.png')) }}">
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=plus-jakarta-sans:400,500,600,700,800&display=swap" rel="stylesheet" />
