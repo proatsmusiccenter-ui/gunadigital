@@ -17,6 +17,8 @@
                 <a href="{{ route('home') }}#harga" class="px-4 py-1.5 rounded-full hover:text-blue-600 hover:bg-white transition-all">Paket Harga</a>
             </nav>
 
+            <!-- Actions -->
+            <div class="hidden md:flex items-center gap-4">
                 <!-- WhatsApp Direct Icon Only -->
                 <a href="https://wa.me/6281234567890?text=Halo%20GunaDigital,%20saya%20ingin%20konsultasi%20jasa%20website%20atau%20undangan"
                    target="_blank"
