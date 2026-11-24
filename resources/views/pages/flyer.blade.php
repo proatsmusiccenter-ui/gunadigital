@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>4 Pilihan Flyer Promosi Resmi - GunaDigital</title>
+    <title>4 Pilihan Flyer Promosi Resmi - Gunova Digital</title>
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}">
 
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -46,7 +46,7 @@
             subtitle: 'Desain bersih, terpercaya & profesional dengan warna brand putih & royal blue.',
             tag: 'Paling Populer',
             image: '{{ asset('images/flyer-opsi-1.jpg') }}',
-            downloadName: 'Flyer-GunaDigital-Opsi-1-Tech.jpg'
+            downloadName: 'Flyer-GunovaDigital-Opsi-1-Tech.jpg'
         },
         {
             id: 2,
@@ -54,15 +54,15 @@
             subtitle: 'Nuansa gelap elegan dengan aksen lampu neon cyan & ungu futuristik modern.',
             tag: 'Modern Startup',
             image: '{{ asset('images/flyer-opsi-2.jpg') }}',
-            downloadName: 'Flyer-GunaDigital-Opsi-2-Dark.jpg'
+            downloadName: 'Flyer-GunovaDigital-Opsi-2-Dark.jpg'
         },
         {
             id: 3,
-            title: 'Opsi 3: Romantic Wedding & Events',
-            subtitle: 'Kemewahan botanical emas & blush ivory, ideal untuk pameran wedding & event.',
-            tag: 'Elegan & Mewah',
+            title: 'Opsi 3: Custom Web & Mobile Apps',
+            subtitle: 'Fokus layanan pembuatan aplikasi kustom, SaaS, ERP, POS & sistem informasi enterprise.',
+            tag: 'Software House',
             image: '{{ asset('images/flyer-opsi-3.jpg') }}',
-            downloadName: 'Flyer-GunaDigital-Opsi-3-Wedding.jpg'
+            downloadName: 'Flyer-GunovaDigital-Opsi-3-Apps.jpg'
         },
         {
             id: 4,
@@ -70,7 +70,7 @@
             subtitle: 'Desain punchy berkonversi tinggi untuk iklan sosmed, diskon & promo kilat.',
             tag: 'High Conversion',
             image: '{{ asset('images/flyer-opsi-4.jpg') }}',
-            downloadName: 'Flyer-GunaDigital-Opsi-4-Promo.jpg'
+            downloadName: 'Flyer-GunovaDigital-Opsi-4-Promo.jpg'
         }
     ]
 }" class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen py-6 px-3 sm:px-6">
@@ -104,7 +104,7 @@
             </button>
 
             <!-- WhatsApp Direct Contact -->
-            <a href="https://wa.me/6281234567890?text=Halo%20GunaDigital,%20saya%20tertarik%20dengan%20promo%20flyer%20website%20dan%20undangan%20digital"
+            <a href="https://wa.me/6281234567890?text=Halo%20Gunova%20Digital,%20saya%20tertarik%20dengan%20promo%20flyer%20pembuatan%20website%20dan%20aplikasi"
                target="_blank"
                class="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-black shadow-lg shadow-emerald-500/25 flex items-center gap-2 transition-transform hover:scale-105">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -223,7 +223,7 @@
                     <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pb-6 border-b border-slate-100">
                         <div class="flex items-center gap-3">
                             <img src="{{ asset('images/logologo.png') }}"
-                                 alt="GunaDigital"
+                                 alt="Gunova Digital"
                                  class="h-10 sm:h-12 w-auto object-contain">
                         </div>
 
@@ -241,10 +241,10 @@
                     <!-- Headline -->
                     <div class="text-center space-y-3 max-w-2xl mx-auto">
                         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-[1.15]">
-                            Tingkatkan Bisnis & Abadikan Momen Spesial Anda
+                            Transformasi Bisnis Anda dengan Website & Aplikasi Modern
                         </h1>
                         <p class="text-slate-600 text-sm sm:text-base font-normal leading-relaxed">
-                            Layanan terpadu pembuatan <strong class="text-slate-900">Website Profesional</strong> dan <strong class="text-slate-900">Undangan Digital Eksklusif</strong> berteknologi modern dengan pengerjaan kilat dan hasil berkelas.
+                            Layanan terpadu pembuatan <strong class="text-slate-900">Website Profesional</strong> dan <strong class="text-slate-900">Aplikasi Kustom (Web & Mobile App)</strong> berteknologi mutakhir dengan pengerjaan cepat, aman, dan berkelas.
                         </p>
                     </div>
 
@@ -296,47 +296,47 @@
                         </div>
 
                         <!-- Service Card 2 -->
-                        <div class="rounded-2xl p-6 bg-gradient-to-b from-pink-50/60 to-white border-2 border-pink-200 relative flex flex-col justify-between space-y-5 shadow-xs">
+                        <div class="rounded-2xl p-6 bg-gradient-to-b from-indigo-50/60 to-white border-2 border-indigo-200 relative flex flex-col justify-between space-y-5 shadow-xs">
                             <div class="space-y-4">
                                 <div class="flex items-center justify-between">
-                                    <span class="px-3 py-1 rounded-lg text-xs font-black uppercase tracking-wider bg-gradient-to-r from-pink-600 to-rose-600 text-white">
-                                        Undangan Digital Interaktif
+                                    <span class="px-3 py-1 rounded-lg text-xs font-black uppercase tracking-wider bg-gradient-to-r from-indigo-600 to-cyan-600 text-white">
+                                        Aplikasi Web & Mobile
                                     </span>
-                                    <span class="text-xs font-black text-pink-700 bg-pink-100 px-2.5 py-0.5 rounded-full">
-                                        Mulai 99rb
+                                    <span class="text-xs font-black text-indigo-700 bg-indigo-100 px-2.5 py-0.5 rounded-full">
+                                        Mulai 1.999rb
                                     </span>
                                 </div>
 
                                 <h3 class="text-xl font-black text-slate-900 leading-snug">
-                                    Undangan Pernikahan & Event Eksklusif
+                                    Custom Web App, Sistem Informasi & Mobile App
                                 </h3>
 
                                 <ul class="space-y-2.5 text-xs text-slate-600 font-medium">
                                     <li class="flex items-start gap-2">
-                                        <span class="w-4 h-4 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
-                                        <span>Tema Desain Mewah, Botanical, Royal & Islami</span>
+                                        <span class="w-4 h-4 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
+                                        <span>Sistem Informasi Manajemen (ERP, POS Kasir, CRM, HRIS)</span>
                                     </li>
                                     <li class="flex items-start gap-2">
-                                        <span class="w-4 h-4 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
-                                        <span>Konfirmasi Kehadiran (RSVP) Realtime WhatsApp</span>
+                                        <span class="w-4 h-4 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
+                                        <span>Aplikasi Mobile Android & iOS Terintegrasi Cloud</span>
                                     </li>
                                     <li class="flex items-start gap-2">
-                                        <span class="w-4 h-4 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
-                                        <span>Amplop Digital (QRIS, Rekening Bank, E-Wallet)</span>
+                                        <span class="w-4 h-4 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
+                                        <span>Integrasi Payment Gateway (QRIS, Virtual Account, E-Wallet)</span>
                                     </li>
                                     <li class="flex items-start gap-2">
-                                        <span class="w-4 h-4 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
-                                        <span>Musik Romantis, Galeri Foto & Video Sinematik</span>
+                                        <span class="w-4 h-4 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
+                                        <span>Dashboard Analitik Realtime & Export Laporan PDF/Excel</span>
                                     </li>
                                     <li class="flex items-start gap-2">
-                                        <span class="w-4 h-4 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
-                                        <span>Link Sebar Nama Tamu Khusus Tanpa Batas</span>
+                                        <span class="w-4 h-4 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5">✓</span>
+                                        <span>REST API Ready, Multi-User Role & Garansi Maintenance</span>
                                     </li>
                                 </ul>
                             </div>
 
-                            <div class="pt-3 border-t border-pink-100 flex items-center justify-between text-xs font-bold text-pink-700">
-                                <span>⚡ Pengerjaan Kilat 24 Jam Jadi</span>
+                            <div class="pt-3 border-t border-indigo-100 flex items-center justify-between text-xs font-bold text-indigo-700">
+                                <span>⚡ Arsitektur Modern, Cepat & Scalable</span>
                             </div>
                         </div>
                     </div>
@@ -376,7 +376,7 @@
                         </div>
 
                         <div class="flex flex-col sm:flex-row items-center gap-3 shrink-0">
-                            <a href="https://wa.me/6281234567890?text=Halo%20GunaDigital,%20saya%20tertarik%20dengan%20promo%20flyer%20website%20dan%20undangan%20digital"
+                            <a href="https://wa.me/6281234567890?text=Halo%20Gunova%20Digital,%20saya%20tertarik%20dengan%20promo%20flyer%20pembuatan%20website%20dan%20aplikasi"
                                target="_blank"
                                class="w-full sm:w-auto px-6 py-3.5 rounded-xl font-black text-xs sm:text-sm bg-emerald-500 hover:bg-emerald-600 text-white shadow-lg shadow-emerald-500/30 flex items-center justify-center gap-2 transition-transform hover:scale-105">
                                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -385,10 +385,10 @@
                                 <span>WhatsApp: 0812-3456-7890</span>
                             </a>
 
-                            <a href="https://gunadigital.my.id"
+                            <a href="https://gunovadigital.my.id"
                                target="_blank"
                                class="w-full sm:w-auto px-5 py-3.5 rounded-xl font-bold text-xs sm:text-sm bg-white/10 hover:bg-white/20 border border-white/20 text-white flex items-center justify-center gap-1.5 transition-all">
-                                <span>gunadigital.my.id</span>
+                                <span>gunovadigital.my.id</span>
                                 <span class="text-xs">&rarr;</span>
                             </a>
                         </div>
@@ -396,7 +396,7 @@
 
                     <!-- Footer -->
                     <div class="text-center pt-2 text-xs text-slate-400 font-medium">
-                        &copy; {{ date('Y') }} GunaDigital (Web & Digital Invitation). Seluruh Hak Cipta Dilindungi.
+                        &copy; {{ date('Y') }} Gunova Digital (Web & Application Development). Seluruh Hak Cipta Dilindungi.
                     </div>
 
                 </div>

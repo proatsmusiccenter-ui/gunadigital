@@ -1,4 +1,4 @@
-<x-layouts.app :title="'Hubungi Kami - GunaDigital'">
+<x-layouts.app :title="'Hubungi Kami - Gunova Digital'">
     <div class="py-12 sm:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -8,17 +8,14 @@
                 <span class="text-blue-600 font-semibold">Halaman Kontak</span>
             </nav>
 
-            <div class="bg-gradient-to-br from-blue-600 via-indigo-600 to-blue-700 rounded-3xl p-8 sm:p-12 text-white shadow-xl shadow-blue-500/20 mb-12 relative overflow-hidden">
-                <div class="absolute -top-16 -right-16 w-64 h-64 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
-                <div class="relative z-10 max-w-3xl space-y-3">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-white/15 text-blue-100 border border-white/20">
-                        <span>Layanan Konsultasi Cepat</span>
-                    </div>
-                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight">
-                        Mari Terhubung Bersama GunaDigital
+            <div class="bg-gradient-to-r from-[#13254c] via-[#1b356b] to-[#1e40af] rounded-3xl p-8 sm:p-12 text-white shadow-lg mb-10 relative overflow-hidden">
+                <div class="relative z-10 max-w-3xl space-y-2.5">
+                    <span class="inline-block px-3 py-1 rounded-full bg-white/15 text-sky-200 text-xs font-semibold">Layanan Konsultasi</span>
+                    <h1 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white">
+                        Mari Terhubung Bersama Gunova Digital
                     </h1>
                     <p class="text-blue-100 text-sm sm:text-base leading-relaxed">
-                        Punya pertanyaan, butuh penawaran kustom, atau ingin mendiskusikan konsep proyek website dan undangan digital Anda? Tim kami siap melayani Anda dengan senang hati.
+                        Punya pertanyaan, butuh penawaran kustom, atau ingin mendiskusikan konsep proyek website dan pengembangan aplikasi bisnis Anda? Tim kami siap melayani Anda dengan senang hati.
                     </p>
                 </div>
             </div>
@@ -27,7 +24,7 @@
 
                 <div class="lg:col-span-5 space-y-6">
 
-                    <a href="https://wa.me/6281234567890?text=Halo%20GunaDigital,%20saya%20ingin%20konsultasi%20pembuatan%20website%20/%20undangan%20digital"
+                    <a href="https://wa.me/6281234567890?text=Halo%20Gunova%20Digital,%20saya%20ingin%20konsultasi%20pembuatan%20website%20/%20aplikasi"
                        target="_blank"
                        rel="noopener"
                        class="group p-6 rounded-3xl bg-white border border-slate-200 shadow-sm hover:shadow-lg hover:border-emerald-300 transition-all flex items-start gap-4 block">
@@ -61,7 +58,7 @@
                                 </div>
                                 <div>
                                     <span class="block font-bold text-slate-800">Email Resmi:</span>
-                                    <a href="mailto:halo@gunadigital.id" class="text-blue-600 hover:underline">halo@gunadigital.id</a>
+                                    <a href="mailto:halo@gunovadigital.id" class="text-blue-600 hover:underline">halo@gunovadigital.id</a>
                                 </div>
                             </div>
 
@@ -155,8 +152,8 @@
                                 <select x-model="consultationForm.service"
                                         class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white">
                                     <option value="website">Jasa Pembuatan Website Bisnis</option>
-                                    <option value="undangan">Undangan Digital Interaktif</option>
-                                    <option value="both">Keduanya (Website + Undangan)</option>
+                                    <option value="aplikasi">Jasa Pembuatan Aplikasi (Web / Mobile App)</option>
+                                    <option value="both">Keduanya (Website + Aplikasi Sistem)</option>
                                 </select>
                             </div>
 
@@ -166,10 +163,10 @@
                                 </label>
                                 <select x-model="consultationForm.budget"
                                         class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white">
-                                    <option value="Dibawah 500rb">Di bawah Rp 500.000</option>
                                     <option value="500rb - 1.5jt">Rp 500.000 - Rp 1.500.000</option>
-                                    <option value="1.5jt - 3jt">Rp 1.500.000 - Rp 3.000.000</option>
-                                    <option value="Diatas 3jt">Di atas Rp 3.000.000</option>
+                                    <option value="1.5jt - 4jt">Rp 1.500.000 - Rp 4.000.000</option>
+                                    <option value="4jt - 8jt">Rp 4.000.000 - Rp 8.000.000</option>
+                                    <option value="Diatas 8jt">Di atas Rp 8.000.000</option>
                                 </select>
                             </div>
                         </div>
@@ -180,7 +177,7 @@
                             </label>
                             <textarea x-model="consultationForm.notes"
                                       rows="4"
-                                      placeholder="Ceritakan gambaran website atau tema undangan impian yang Anda inginkan..."
+                                      placeholder="Ceritakan gambaran website atau fitur aplikasi sistem yang Anda inginkan..."
                                       class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"></textarea>
                         </div>
 

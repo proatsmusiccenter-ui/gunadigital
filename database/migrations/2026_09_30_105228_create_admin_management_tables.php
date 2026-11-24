@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('portfolios', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->enum('category', ['website', 'undangan'])->default('website');
+            $table->string('category')->default('website');
             $table->string('tag')->nullable();
             $table->string('image')->nullable();
             $table->text('description')->nullable();
@@ -40,7 +40,7 @@ return new class extends Migration
 
         Schema::create('pricing_packages', function (Blueprint $table) {
             $table->id();
-            $table->enum('category', ['website', 'undangan'])->default('website');
+            $table->string('category')->default('website');
             $table->string('name');
             $table->string('price');
             $table->string('period')->default('sekali bayar');

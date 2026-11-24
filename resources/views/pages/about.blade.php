@@ -1,4 +1,4 @@
-<x-layouts.app :title="'Tentang Kami - GunaDigital'">
+<x-layouts.app :title="'Tentang Kami - Gunova Digital'">
     <div class="py-12 sm:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
 
@@ -8,19 +8,14 @@
                 <span class="text-blue-600 font-semibold">Tentang Kami</span>
             </nav>
 
-            <div class="bg-gradient-to-br from-blue-600 via-indigo-600 to-blue-700 rounded-3xl p-8 sm:p-12 text-white shadow-xl shadow-blue-500/20 relative overflow-hidden">
-                <div class="absolute -top-16 -right-16 w-72 h-72 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
-                <div class="absolute -bottom-16 -left-16 w-64 h-64 bg-sky-400/20 rounded-full blur-2xl pointer-events-none"></div>
-
-                <div class="relative z-10 max-w-3xl space-y-4">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-white/15 text-blue-100 border border-white/20">
-                        <span>Mengenal Lebih Dekat GunaDigital</span>
-                    </div>
-                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight">
-                        Membangun Masa Depan Digital Bisnis & Momen Terbaik Anda
+            <div class="bg-gradient-to-r from-[#13254c] via-[#1b356b] to-[#1e40af] rounded-3xl p-8 sm:p-12 text-white shadow-lg relative overflow-hidden">
+                <div class="relative z-10 max-w-3xl space-y-3">
+                    <span class="inline-block px-3 py-1 rounded-full bg-white/15 text-sky-200 text-xs font-semibold">Mengenal Lebih Dekat Gunova Digital</span>
+                    <h1 class="font-display text-3xl sm:text-4xl font-bold tracking-tight leading-tight text-white">
+                        Membangun Masa Depan Teknologi Website & Aplikasi Bisnis Anda
                     </h1>
                     <p class="text-blue-100 text-sm sm:text-base leading-relaxed">
-                        Kami adalah studio kreatif digital yang berfokus menghadirkan website profesional, cepat, dan berestetika tinggi serta platform undangan digital interaktif kelas dunia untuk UMKM, korporat, dan individu di Indonesia.
+                        Kami adalah software house dan agensi teknologi digital yang berfokus menghadirkan website profesional, cepat, dan berestetika tinggi serta pengembangan aplikasi web & mobile kustom kelas dunia untuk perusahaan, startup, dan UMKM di Indonesia.
                     </p>
                 </div>
             </div>
@@ -29,13 +24,13 @@
                 <div class="lg:col-span-7 space-y-5">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-blue-50 text-blue-700 border border-blue-200">
                         <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                        <span>Tentang GunaDigital.id</span>
+                        <span>Tentang GunovaDigital.id</span>
                     </div>
                     <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
                         Solusi Kreatif & Teknologi untuk Akselerasi Bisnis Anda
                     </h2>
                     <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
-                        <strong class="text-slate-900 font-semibold">GunaDigital.id</strong> didirikan dengan semangat untuk memberikan kemudahan bagi setiap pelaku usaha, profesional, dan penyelenggara acara dalam memiliki kehadiran digital yang elegan dan berdaya saing tinggi.
+                        <strong class="text-slate-900 font-semibold">GunovaDigital.id</strong> didirikan dengan semangat untuk memberikan kemudahan bagi setiap pelaku usaha, profesional, dan penyelenggara acara dalam memiliki kehadiran digital yang elegan dan berdaya saing tinggi.
                     </p>
                     <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
                         Kami menggabungkan seni desain modern, standar arsitektur pemrograman mutakhir, dan optimasi performa berkecepatan tinggi. Kami percaya bahwa website bukan sekadar brosur online, melainkan representasi kredibilitas, mesin konversi penjualan, dan identitas brand Anda di ranah digital.
@@ -60,7 +55,7 @@
                 <div class="lg:col-span-5">
                     <div class="relative bg-gradient-to-tr from-blue-500/10 via-indigo-500/5 to-sky-500/10 p-6 sm:p-8 rounded-3xl border border-blue-100 shadow-sm space-y-6 overflow-hidden">
                         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-blue-100/80">
-                            <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}" alt="GunaDigital" class="h-10 sm:h-11 w-auto max-w-[220px] object-contain">
+                            <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}" alt="Gunova Digital" class="h-10 sm:h-11 w-auto max-w-[220px] object-contain">
                             <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/90 border border-blue-100 text-[11px] font-semibold text-slate-600 shadow-xs w-fit">
                                 <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
                                 <span>Jakarta & Bandung, ID</span>
@@ -109,7 +104,7 @@
                         <span>Arah & Komitmen</span>
                     </div>
                     <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-                        Visi & Misi GunaDigital
+                        Visi & Misi Gunova Digital
                     </h2>
                     <p class="text-xs sm:text-sm text-slate-500">
                         Prinsip dasar dan tujuan mulia yang memandu setiap langkah karya dan layanan yang kami bangun.
@@ -166,8 +161,8 @@
 
                             <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 space-y-2">
                                 <div class="w-7 h-7 rounded-lg bg-sky-100 text-sky-700 font-bold flex items-center justify-center text-xs">3</div>
-                                <h4 class="font-bold text-slate-900 text-sm">Inovasi Undangan Digital</h4>
-                                <p class="text-slate-500 leading-relaxed">Menciptakan pengalaman undangan pernikahan & acara digital interaktif yang elegan, praktis, dan ramah lingkungan.</p>
+                                <h4 class="font-bold text-slate-900 text-sm">Inovasi Aplikasi & Sistem</h4>
+                                <p class="text-slate-500 leading-relaxed">Membangun aplikasi web kustom, sistem ERP/POS, dan aplikasi mobile yang mengotomasi serta mempercepat operasional bisnis.</p>
                             </div>
 
                             <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 space-y-2">
@@ -190,7 +185,7 @@
 
                         <div class="relative mx-auto max-w-sm sm:max-w-md lg:max-w-none rounded-[32px] overflow-hidden bg-slate-900 border border-slate-200/80 shadow-2xl shadow-blue-500/10 aspect-[4/5] group">
                             <img src="{{ asset('images/founder.jpg') }}?v={{ time() }}"
-                                 alt="Alvian Ahmad Febrian - Founder & CEO GunaDigital"
+                                 alt="Alvian Ahmad Febrian - Founder & CEO Gunova Digital"
                                  class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700">
 
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-50 pointer-events-none"></div>
@@ -208,7 +203,7 @@
                                 Alvian Ahmad Febrian
                             </h2>
                             <p class="text-sm sm:text-base font-semibold text-slate-500">
-                                Founder & CEO GunaDigital.id
+                                Founder & CEO GunovaDigital.id
                             </p>
                         </div>
 
@@ -217,10 +212,10 @@
                                 <strong class="text-slate-900 font-semibold">Alvian Ahmad Febrian</strong> adalah seorang creativepreneur, web architect, dan tech enthusiast yang berdedikasi membangun ekosistem digital Indonesia yang inovatif, berestetika tinggi, dan mudah dijangkau oleh semua kalangan.
                             </p>
                             <p>
-                                Berawal dari kegelisahannya melihat masih banyak pelaku usaha, UMKM, dan penyelenggara acara yang kesulitan memiliki website profesional serta undangan digital interaktif tanpa harus mengeluarkan biaya puluhan juta rupiah. Padahal, kehadiran digital yang kredibel dan responsif adalah poros utama akselerasi bisnis serta citra brand di era serba online saat ini.
+                                Berawal dari kegelisahannya melihat masih banyak pelaku usaha, perusahaan, dan UMKM yang kesulitan memiliki website profesional serta sistem aplikasi bisnis terintegrasi tanpa harus mengeluarkan biaya ratusan juta rupiah. Padahal, kehadiran website dan sistem informasi yang andal adalah poros utama akselerasi bisnis di era transformasi digital saat ini.
                             </p>
                             <p>
-                                Berangkat dari komitmen tersebut, Alvian mendirikan <strong class="text-slate-900 font-semibold">GunaDigital.id</strong> sebagai studio kreatif yang menggabungkan rekayasa kode modern, kecepatan akses optimal, desain eksklusif, serta garansi revisi transparan. Alvian percaya bahwa setiap bisnis dan individu berhak memiliki platform digital kelas dunia untuk berkembang dan meraih kesuksesan yang lebih hebat.
+                                Berangkat dari komitmen tersebut, Alvian mendirikan <strong class="text-slate-900 font-semibold">GunovaDigital.id</strong> sebagai software house & agensi digital yang menggabungkan rekayasa kode modern, kecepatan akses optimal, desain UI/UX eksklusif, serta garansi layanan transparan. Alvian percaya bahwa setiap bisnis berhak memiliki teknologi website dan aplikasi kelas dunia untuk berkembang dan meraih kesuksesan yang lebih hebat.
                             </p>
                         </div>
 
@@ -231,12 +226,12 @@
                             </div>
 
                             <p class="text-xs sm:text-sm font-semibold text-slate-800 italic leading-relaxed">
-                                "GunaDigital.id didirikan untuk memberikan manfaat nyata bagi setiap insan dan bisnis. Supaya setiap dari kita mampu tampil profesional, percaya diri, dan melangkah lebih jauh di era digital."
+                                "GunovaDigital.id didirikan untuk memberikan manfaat nyata bagi setiap insan dan bisnis. Supaya setiap dari kita mampu tampil profesional, percaya diri, dan melangkah lebih jauh di era digital."
                             </p>
 
                             <div class="pt-2 border-t border-amber-200/50">
                                 <h4 class="text-xs font-bold text-slate-900">Alvian Ahmad Febrian</h4>
-                                <p class="text-[11px] text-slate-500 font-medium">Founder & CEO GunaDigital.id</p>
+                                <p class="text-[11px] text-slate-500 font-medium">Founder & CEO GunovaDigital.id</p>
                             </div>
                         </div>
 
@@ -251,15 +246,15 @@
                         Mulai Kolaborasi
                     </span>
                     <h3 class="text-2xl sm:text-3xl font-black tracking-tight">
-                        Siap Mewujudkan Website & Undangan Impian Anda?
+                        Siap Mewujudkan Website & Aplikasi Bisnis Impian Anda?
                     </h3>
                     <p class="text-blue-100 text-xs sm:text-sm leading-relaxed">
-                        Diskusikan ide proyek dan konsep bisnis Anda bersama tim kami. Kami siap memberikan saran terbaik dan penawaran transparan.
+                        Diskusikan ide proyek, arsitektur aplikasi, dan konsep bisnis Anda bersama tim kami. Kami siap memberikan saran terbaik dan penawaran transparan.
                     </p>
                 </div>
 
                 <div class="flex flex-col sm:flex-row items-center gap-3 relative z-10 shrink-0">
-                    <a href="https://wa.me/6281234567890?text=Halo%20GunaDigital,%20saya%20tertarik%20konsultasi%20pembuatan%20website"
+                    <a href="https://wa.me/6281234567890?text=Halo%20Gunova%20Digital,%20saya%20tertarik%20konsultasi%20pembuatan%20website"
                        target="_blank"
                        rel="noopener"
                        class="px-6 py-3.5 rounded-2xl bg-white hover:bg-slate-50 text-blue-600 font-bold text-sm shadow-md transition-all flex items-center gap-2">

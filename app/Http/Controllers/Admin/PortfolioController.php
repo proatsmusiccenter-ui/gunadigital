@@ -35,7 +35,7 @@ class PortfolioController extends Controller
         $stats = [
             'total' => Portfolio::count(),
             'website' => Portfolio::where('category', 'website')->count(),
-            'undangan' => Portfolio::where('category', 'undangan')->count(),
+            'aplikasi' => Portfolio::where('category', 'aplikasi')->count(),
             'featured' => Portfolio::where('is_featured', true)->count(),
         ];
 
@@ -46,7 +46,7 @@ class PortfolioController extends Controller
     {
         $validated = $request->validate([
             'title' => ['required', 'string', 'max:255'],
-            'category' => ['required', 'in:website,undangan'],
+            'category' => ['required', 'in:website,aplikasi'],
             'tag' => ['nullable', 'string', 'max:100'],
             'image' => ['nullable', 'string', 'max:500'],
             'description' => ['nullable', 'string'],
@@ -68,7 +68,7 @@ class PortfolioController extends Controller
     {
         $validated = $request->validate([
             'title' => ['required', 'string', 'max:255'],
-            'category' => ['required', 'in:website,undangan'],
+            'category' => ['required', 'in:website,aplikasi'],
             'tag' => ['nullable', 'string', 'max:100'],
             'image' => ['nullable', 'string', 'max:500'],
             'description' => ['nullable', 'string'],

@@ -145,7 +145,7 @@
     <header class="fixed top-3 left-3 z-50">
         <a href="{{ route('home') }}" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-lg border border-primary-container/30 text-xs font-semibold text-on-surface hover:bg-surface-container-lowest hover:scale-105 transition-all">
             <span class="material-symbols-outlined text-[16px] text-primary">arrow_back</span>
-            <span>Kembali ke GunaDigital</span>
+            <span>Kembali ke Gunova Digital</span>
         </a>
     </header>
 
@@ -732,7 +732,7 @@
                 With wholehearted gratitude to our beloved families and cherished companions joining our sacred beginning.
             </p>
             <div class="pt-space-sm font-label-uppercase text-label-uppercase text-on-surface-variant/70">
-                © 2025 Raditya &amp; Anindya. Crafted with ❤️ by <a href="{{ route('home') }}" class="text-primary hover:underline font-bold">GunaDigital</a>.
+                © 2025 Raditya &amp; Anindya. Crafted with ❤️ by <a href="{{ route('home') }}" class="text-primary hover:underline font-bold">Gunova Digital</a>.
             </div>
         </div>
     </footer>

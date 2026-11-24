@@ -23,7 +23,7 @@ class PackageController extends Controller
         $stats = [
             'total' => PricingPackage::count(),
             'website' => PricingPackage::where('category', 'website')->count(),
-            'undangan' => PricingPackage::where('category', 'undangan')->count(),
+            'aplikasi' => PricingPackage::where('category', 'aplikasi')->count(),
         ];
 
         return view('admin.packages.index', compact('packages', 'category', 'stats'));
@@ -32,7 +32,7 @@ class PackageController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $validated = $request->validate([
-            'category' => ['required', 'in:website,undangan'],
+            'category' => ['required', 'in:website,aplikasi'],
             'name' => ['required', 'string', 'max:255'],
             'price' => ['required', 'string', 'max:100'],
             'period' => ['required', 'string', 'max:100'],
@@ -66,7 +66,7 @@ class PackageController extends Controller
     public function update(Request $request, PricingPackage $package): RedirectResponse
     {
         $validated = $request->validate([
-            'category' => ['required', 'in:website,undangan'],
+            'category' => ['required', 'in:website,aplikasi'],
             'name' => ['required', 'string', 'max:255'],
             'price' => ['required', 'string', 'max:100'],
             'period' => ['required', 'string', 'max:100'],

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Login Admin - CMS GunaDigital</title>
+    <title>Login Admin - CMS Gunova Digital</title>
     <meta name="robots" content="noindex, nofollow">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}?v={{ filemtime(public_path('images/favicon.png')) }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v={{ filemtime(public_path('favicon.ico')) }}">
@@ -33,7 +33,7 @@
 
             <div class="text-center space-y-4 mb-8">
                 <a href="{{ route('home') }}" class="inline-flex items-center justify-center group">
-                    <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}" alt="GunaDigital" class="h-14 sm:h-16 w-auto max-w-[260px] object-contain group-hover:scale-105 transition-transform duration-300">
+                    <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}" alt="Gunova Digital" class="h-14 sm:h-16 w-auto max-w-[260px] object-contain group-hover:scale-105 transition-transform duration-300">
                 </a>
                 <div>
                     <h1 class="text-xl font-extrabold tracking-tight text-slate-900">
@@ -152,7 +152,7 @@
         </div>
 
         <p class="text-center text-[11px] text-slate-500 mt-6">
-            &copy; {{ date('Y') }} GunaDigital. Hak Cipta Dilindungi.
+            &copy; {{ date('Y') }} Gunova Digital. Hak Cipta Dilindungi.
         </p>
     </div>
 

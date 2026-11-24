@@ -16,10 +16,10 @@ class LandingPageTest extends TestCase
         $response = $this->get('/');
 
         $response->assertStatus(200);
-        $response->assertSee('Guna');
+        $response->assertSee('Gunova');
         $response->assertSee('Digital');
         $response->assertSee('Website');
-        $response->assertSee('Undangan Digital');
+        $response->assertSee('Aplikasi');
         $response->assertSee('Pilihan Paket Harga Terbaik');
     }
 
@@ -32,10 +32,10 @@ class LandingPageTest extends TestCase
 
         $response->assertStatus(200);
         $response->assertSee('Tentang Kami');
-        $response->assertSee('GunaDigital');
-        $response->assertSee('Visi & Misi GunaDigital', false);
+        $response->assertSee('Gunova Digital');
+        $response->assertSee('Visi & Misi Gunova Digital', false);
         $response->assertSee('Alvian Ahmad Febrian');
-        $response->assertSee('Founder & CEO GunaDigital.id', false);
+        $response->assertSee('Founder & CEO GunovaDigital.id', false);
         $response->assertSee('MEET OUR FOUNDER');
     }
 

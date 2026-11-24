@@ -1,4 +1,4 @@
-<x-layouts.app :title="'Syarat & Ketentuan - GunaDigital'">
+<x-layouts.app :title="'Syarat & Ketentuan - Gunova Digital'">
     <div class="py-12 sm:py-16">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -20,7 +20,7 @@
                         Syarat & Ketentuan Layanan
                     </h1>
                     <p class="text-blue-100 text-sm sm:text-base max-w-2xl leading-relaxed">
-                        Harap membaca syarat dan ketentuan berikut dengan saksama sebelum menggunakan layanan pembuatan website dan undangan digital di GunaDigital.
+                        Harap membaca syarat dan ketentuan berikut dengan saksama sebelum menggunakan layanan pembuatan website dan pengembangan aplikasi di Gunova Digital.
                     </p>
                     <div class="pt-2 flex items-center gap-4 text-xs text-blue-200">
                         <span>Terakhir diperbarui: {{ date('d F Y') }}</span>
@@ -38,7 +38,7 @@
                         <h2 class="text-xl font-bold text-slate-900">Ketentuan Umum & Definisi</h2>
                     </div>
                     <p class="text-sm pl-11 text-slate-600">
-                        Dengan memesan atau menggunakan layanan yang disediakan oleh <strong class="text-slate-900">GunaDigital</strong> ("Kami"), Klien ("Anda") dianggap telah membaca, memahami, dan menyetujui seluruh isi dari Syarat dan Ketentuan ini. Perjanjian ini mengatur hak dan kewajiban kedua belah pihak selama proses kerjasama berlangsung.
+                        Dengan memesan atau menggunakan layanan yang disediakan oleh <strong class="text-slate-900">Gunova Digital</strong> ("Kami"), Klien ("Anda") dianggap telah membaca, memahami, dan menyetujui seluruh isi dari Syarat dan Ketentuan ini. Perjanjian ini mengatur hak dan kewajiban kedua belah pihak selama proses kerjasama berlangsung.
                     </p>
                 </section>
 
@@ -48,11 +48,11 @@
                         <h2 class="text-xl font-bold text-slate-900">Ruang Lingkup Layanan</h2>
                     </div>
                     <div class="text-sm pl-11 space-y-3 text-slate-600">
-                        <p>GunaDigital menyediakan solusi digital kreatif yang mencakup namun tidak terbatas pada:</p>
+                        <p>Gunova Digital menyediakan solusi teknologi & pengembangan perangkat lunak yang mencakup namun tidak terbatas pada:</p>
                         <ul class="list-disc pl-5 space-y-1.5">
-                            <li><strong>Jasa Pembuatan Website:</strong> Landing Page, Company Profile Bisnis/UMKM, Toko Online / Katalog, Web Klinik, Web Portofolio, dan Custom Web Portal.</li>
-                            <li><strong>Jasa Undangan Digital:</strong> Undangan Pernikahan Online (Wedding Website), Khitanan, Ulang Tahun, dan Undangan Formal Acara.</li>
-                            <li><strong>Layanan Pendukung:</strong> Konfigurasi domain kustom, instalasi sertifikat SSL, hosting setup, integrasi form WhatsApp, Google Maps, dan SEO dasar.</li>
+                            <li><strong>Jasa Pembuatan Website:</strong> Landing Page, Company Profile Bisnis/UMKM, Toko Online / E-Commerce, Web Klinik/Instansi, Web Portofolio, dan Custom Web Portal.</li>
+                            <li><strong>Jasa Pembuatan Aplikasi:</strong> Custom Web Application, Sistem Informasi Manajemen (ERP, POS Kasir, CRM, HRIS, Akademik), dan Aplikasi Mobile (Android & iOS).</li>
+                            <li><strong>Layanan Pendukung:</strong> Konfigurasi domain kustom, instalasi sertifikat SSL, setup Cloud VPS/Hosting, integrasi Payment Gateway, WhatsApp API, dan optimasi SEO.</li>
                         </ul>
                     </div>
                 </section>
@@ -64,9 +64,9 @@
                     </div>
                     <div class="text-sm pl-11 space-y-3 text-slate-600">
                         <ul class="list-disc pl-5 space-y-2">
-                            <li><strong>Uang Muka (DP):</strong> Pengerjaan proyek website dimulai setelah Klien membayar uang muka (DP) minimal sebesar 50% dari total nilai paket yang disepakati, atau pembayaran penuh (100%) untuk paket undangan digital tertentu.</li>
+                            <li><strong>Uang Muka (DP):</strong> Pengerjaan proyek website atau aplikasi dimulai setelah Klien membayar uang muka (DP) minimal sebesar 50% dari total nilai paket/kontrak yang disepakati.</li>
                             <li><strong>Pelunasan:</strong> Sisa pembayaran wajib diselesaikan setelah website selesai dikerjakan dan diverifikasi dalam tahap preview, sebelum kredensial akses penuh atau serah terima domain live dilakukan.</li>
-                            <li><strong>Metode Pembayaran:</strong> Pembayaran hanya sah jika ditransfer ke rekening bank resmi / QRIS yang diinstruksikan oleh tim admin resmi GunaDigital.</li>
+                            <li><strong>Metode Pembayaran:</strong> Pembayaran hanya sah jika ditransfer ke rekening bank resmi / QRIS yang diinstruksikan oleh tim admin resmi Gunova Digital.</li>
                         </ul>
                     </div>
                 </section>
@@ -93,7 +93,7 @@
                     <div class="text-sm pl-11 space-y-3 text-slate-600">
                         <p>Klien menjamin bahwa seluruh materi yang diberikan adalah milik sah Klien dan tidak melanggar hak cipta pihak ketiga.</p>
                         <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs sm:text-sm">
-                            <strong>Pemberitahuan Penting:</strong> GunaDigital menolak keras dan berhak membatalkan pengerjaan proyek yang mengandung konten judi online, pornografi, penipuan/phishing, investasi bodong, ujaran kebencian (SARA), atau materi terlarang lainnya sesuai hukum Republik Indonesia.
+                            <strong>Pemberitahuan Penting:</strong> Gunova Digital menolak keras dan berhak membatalkan pengerjaan proyek yang mengandung konten judi online, pornografi, penipuan/phishing, investasi bodong, ujaran kebencian (SARA), atau materi terlarang lainnya sesuai hukum Republik Indonesia.
                         </div>
                     </div>
                 </section>

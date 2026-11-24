@@ -63,7 +63,7 @@ class AdminAuthTest extends TestCase
     public function test_authenticated_admin_can_logout(): void
     {
         $user = User::factory()->create([
-            'email' => 'admin@gunadigital.id',
+            'email' => 'admin@gunovadigital.id',
         ]);
 
         $response = $this->actingAs($user)->post('/cms-admin/logout');

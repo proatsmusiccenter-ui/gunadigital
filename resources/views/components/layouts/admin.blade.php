@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ $title ?? 'Dashboard - CMS Admin GunaDigital' }}</title>
+    <title>{{ $title ?? 'Dashboard - CMS Admin Gunova Digital' }}</title>
     <meta name="robots" content="noindex, nofollow">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}?v={{ filemtime(public_path('images/favicon.png')) }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v={{ filemtime(public_path('favicon.ico')) }}">
@@ -50,7 +50,7 @@
 
             <div class="flex items-center justify-between h-20 px-6 border-b border-blue-100">
                 <a href="{{ route('admin.dashboard') }}" class="flex items-center group overflow-hidden">
-                    <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}" alt="GunaDigital" class="h-10 w-auto max-w-[180px] object-contain group-hover:scale-105 transition-transform" :class="sidebarCollapsed ? 'max-w-[36px] object-left object-cover' : ''">
+                    <img src="{{ asset('images/logologo.png') }}?v={{ filemtime(public_path('images/logologo.png')) }}" alt="Gunova Digital" class="h-10 w-auto max-w-[180px] object-contain group-hover:scale-105 transition-transform" :class="sidebarCollapsed ? 'max-w-[36px] object-left object-cover' : ''">
                 </a>
 
                 <button @click="sidebarOpen = false"
@@ -178,7 +178,7 @@
                         </div>
                         <div class="overflow-hidden" x-show="!sidebarCollapsed">
                             <span class="block text-xs font-bold text-slate-800 truncate">{{ auth()->user()->name ?? 'Administrator' }}</span>
-                            <span class="block text-[11px] text-slate-500 truncate">{{ auth()->user()->email ?? 'admin@gunadigital.id' }}</span>
+                            <span class="block text-[11px] text-slate-500 truncate">{{ auth()->user()->email ?? 'admin@gunovadigital.id' }}</span>
                         </div>
                     </div>
 
@@ -227,7 +227,7 @@
                             </button>
 
                             <div class="hidden sm:flex items-center gap-2 text-xs text-slate-500">
-                                <span>GunaDigital CMS</span>
+                                <span>Gunova Digital CMS</span>
                                 <span>/</span>
                                 <span class="font-bold text-slate-900">{{ $breadcrumb ?? 'Dashboard' }}</span>
                             </div>
@@ -258,8 +258,8 @@
             </main>
 
             <footer class="border-t border-blue-100 px-4 sm:px-6 lg:px-8 py-5 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500 bg-white">
-                <p>&copy; {{ date('Y') }} GunaDigital. Hak Cipta Dilindungi.</p>
-                <p>Login sebagai: <strong class="text-slate-700">{{ auth()->user()->email ?? 'admin@gunadigital.id' }}</strong></p>
+                <p>&copy; {{ date('Y') }} Gunova Digital. Hak Cipta Dilindungi.</p>
+                <p>Login sebagai: <strong class="text-slate-700">{{ auth()->user()->email ?? 'admin@gunovadigital.id' }}</strong></p>
             </footer>
 
         </div>

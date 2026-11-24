@@ -1,4 +1,4 @@
-<x-layouts.app :title="'Kebijakan Pengembalian Dana - GunaDigital'">
+<x-layouts.app :title="'Kebijakan Pengembalian Dana - Gunova Digital'">
     <div class="py-12 sm:py-16">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -38,7 +38,7 @@
                         <h2 class="text-xl font-bold text-slate-900">Prinsip Kepuasan & Garansi Revisi Terlebih Dahulu</h2>
                     </div>
                     <p class="text-sm pl-11 text-slate-600">
-                        Prioritas utama kami adalah menghasilkan karya website atau undangan digital yang melebihi ekspektasi Anda. Jika terdapat ketidaksesuaian desain atau fitur, kami selalu mengedepankan proses revisi dan konsultasi intensif untuk menyempurnakan proyek Anda sebelum opsi refund dipertimbangkan.
+                        Prioritas utama kami adalah menghasilkan karya website dan aplikasi sistem yang melebihi ekspektasi Anda. Jika terdapat ketidaksesuaian desain atau fitur, kami selalu mengedepankan proses revisi, bug fixing, dan konsultasi intensif untuk menyempurnakan proyek Anda sebelum opsi refund dipertimbangkan.
                     </p>
                 </section>
 

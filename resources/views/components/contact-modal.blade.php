@@ -60,8 +60,8 @@
                     <select x-model="consultationForm.service"
                             class="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-900 text-sm focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all">
                         <option value="website">Jasa Pembuatan Website (Company Profile / Landing Page / Toko Online)</option>
-                        <option value="undangan">Jasa Undangan Digital (Pernikahan / Khitanan / Event)</option>
-                        <option value="keduanya">Keduanya (Website & Undangan Digital)</option>
+                        <option value="aplikasi">Jasa Pembuatan Aplikasi (Web App / Sistem Informasi / Mobile App)</option>
+                        <option value="keduanya">Keduanya (Website & Aplikasi Terintegrasi)</option>
                     </select>
                 </div>
 
@@ -69,10 +69,10 @@
                     <label class="block text-xs font-semibold text-slate-700 mb-1">Estimasi Alokasi Budget</label>
                     <select x-model="consultationForm.budget"
                             class="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-900 text-sm focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all">
-                        <option value="Di bawah 500 Ribu">Di bawah Rp 500.000 (Paket Hemat)</option>
-                        <option value="500 Ribu - 1 Juta">Rp 500.000 - Rp 1.000.000 (Standar UMKM / Gold)</option>
-                        <option value="1 Juta - 3 Juta">Rp 1.000.000 - Rp 3.000.000 (Business Pro / E-Commerce)</option>
-                        <option value="Di atas 3 Juta">> Rp 3.000.000 (Custom Platform / Korporat)</option>
+                        <option value="500 Ribu - 1 Juta">Rp 500.000 - Rp 1.000.000 (Landing Page / Web UMKM)</option>
+                        <option value="1 Juta - 3 Juta">Rp 1.000.000 - Rp 3.000.000 (Business Pro / E-Commerce / Starter App)</option>
+                        <option value="3 Juta - 7 Juta">Rp 3.000.000 - Rp 7.000.000 (Custom Web App / Sistem ERP & POS)</option>
+                        <option value="Di atas 7 Juta">> Rp 7.000.000 (Aplikasi Enterprise / Mobile App Android & iOS)</option>
                     </select>
                 </div>
 
